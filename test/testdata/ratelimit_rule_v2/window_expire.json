@@ -1,0 +1,68 @@
+{
+  "rules": [
+    {
+      "id": "we0001",
+      "service": "ExpireTestSvcV2",
+      "namespace": "Test",
+      "priority": 0,
+      "arguments": [
+        {
+          "type": "CUSTOM",
+          "key": "uin",
+          "value": {
+            "type": "REGEX",
+            "value": ".+"
+          }
+        },
+        {
+          "type": "CUSTOM",
+          "key": "appId",
+          "value": {
+            "type": "EXACT",
+            "value": "remote"
+          }
+        }
+      ],
+      "resource": "QPS",
+      "type": "GLOBAL",
+      "action": "reject",
+      "amount_mode": "GLOBAL_TOTAL",
+      "amounts": [
+        {
+          "maxAmount": 200,
+          "validDuration": "1s"
+        }
+      ],
+      "cluster": {
+        "namespace": "Polaris",
+        "service": "polaris.metric.test.ide"
+      }
+    },
+    {
+      "id": "we0002",
+      "service": "ExpireTestSvcV2",
+      "namespace": "Test",
+      "priority": 1,
+      "arguments": [
+        {
+          "type": "CUSTOM",
+          "key": "uin",
+          "value": {
+            "type": "REGEX",
+            "value": ".+"
+          }
+        }
+      ],
+      "resource": "QPS",
+      "type": "LOCAL",
+      "action": "reject",
+      "amount_mode": "GLOBAL_TOTAL",
+      "amounts": [
+        {
+          "maxAmount": 50,
+          "validDuration": "1s"
+        }
+      ]
+    }
+  ]
+}

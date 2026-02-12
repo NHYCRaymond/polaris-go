@@ -1,0 +1,53 @@
+global:
+  api:
+    timeout: 1s
+    reportInterval: 30s
+    maxRetryTimes: 10
+    retryInterval: 1s
+  serverConnector:
+    addresses:
+      - 127.0.0.1:58011
+    protocol: grpc
+    syncInterval: 3s
+    connectTimeout: 1s
+    connectionIdleTimeout: 100ms
+    requestQueueSize: 100000
+    serverSwitchInterval: 50m
+    plugin: {}
+  statReporter:
+    enable: true
+    chain:
+      - prometheus
+    plugin:
+      prometheus:
+        type: pull
+        metricPort: 0
+consumer:
+  localCache:
+    serviceExpireTime: 5s
+    serviceRefreshInterval: 1s
+    persistEnable: true
+    persistDir: testdata/backup
+    type: inmemory
+    persistMaxWriteRetry: 0
+    persistMaxReadRetry: 0
+    persistRetryInterval: 1s
+    plugin: {}
+  serviceRouter:
+    percentOfMinInstances: 0.3
+    chain:
+      - ruleBasedRouter
+  loadbalancer:
+    type: weightedRandom
+    plugin: {}
+  circuitBreaker:
+    enable: true
+    chain:
+      - composite
+  outlierDetection:
+    enable: true
+    checkPeriod: 10s
+    chain:
+      - tcp
+      - udp
+    plugin: {}

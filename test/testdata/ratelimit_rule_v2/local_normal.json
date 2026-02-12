@@ -1,0 +1,89 @@
+{
+  "rules": [
+    {
+      "id": "l0001",
+      "service": "LocalTestSvcV2",
+      "namespace": "Test",
+      "method":  {
+        "type": "EXACT",
+        "value": "query"
+      },
+      "arguments": [
+        {
+          "type": "CUSTOM",
+          "key": "uin",
+          "value": {
+            "type": "EXACT",
+            "value": "007"
+          }
+        }
+      ],
+      "resource": "QPS",
+      "type": "LOCAL",
+      "action": "reject",
+      "amount_mode": "GLOBAL_TOTAL",
+      "amounts": [
+        {
+          "maxAmount": 200,
+          "validDuration": "1s"
+        },
+        {
+          "maxAmount": 800,
+          "validDuration": "10s"
+        }
+      ]
+    },
+    {
+      "id": "l0002",
+      "service": "LocalTestSvcV2",
+      "namespace": "Test",
+      "arguments": [
+        {
+          "type": "CUSTOM",
+          "key": "appId",
+          "value":  {
+            "type": "REGEX",
+            "value": ".+"
+          }
+        }
+      ],
+      "resource": "QPS",
+      "type": "LOCAL",
+      "action": "reject",
+      "regex_combine": false,
+      "amount_mode": "GLOBAL_TOTAL",
+      "amounts": [
+        {
+          "maxAmount": 100,
+          "validDuration": "1s"
+        }
+      ]
+    },
+    {
+      "id": "l0003",
+      "service": "LocalTestSvcV2",
+      "namespace": "Test",
+      "arguments": [
+        {
+          "type": "CUSTOM",
+          "key": "test_uin",
+          "value":  {
+            "type": "REGEX",
+            "value": ".+"
+          }
+        }
+      ],
+      "resource": "QPS",
+      "type": "LOCAL",
+      "action": "reject",
+      "regex_combine": true,
+      "amount_mode": "GLOBAL_TOTAL",
+      "amounts": [
+        {
+          "maxAmount": 1000,
+          "validDuration": "1s"
+        }
+      ]
+    }
+  ]
+}
