@@ -18,11 +18,11 @@
 package healthcheck
 
 import (
-	"github.com/polarismesh/specification/source/go/api/v1/fault_tolerance"
+	"github.com/NHYCRaymond/polaris-specification/source/go/api/v1/fault_tolerance"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin"
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
 )
 
 // Proxy .proxy of HealthChecker

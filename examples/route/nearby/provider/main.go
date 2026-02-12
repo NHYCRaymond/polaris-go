@@ -30,7 +30,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/polarismesh/polaris-go"
+	"github.com/NHYCRaymond/polaris-go"
 )
 
 var (

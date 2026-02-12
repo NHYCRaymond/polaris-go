@@ -26,7 +26,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/polarismesh/specification/source/go/api/v1/fault_tolerance"
+	"github.com/NHYCRaymond/polaris-specification/source/go/api/v1/fault_tolerance"
 )
 
 type ResourceStat struct {

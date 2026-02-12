@@ -29,11 +29,11 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 	"github.com/hashicorp/go-multierror"
-	apiservice "github.com/polarismesh/specification/source/go/api/v1/service_manage"
+	apiservice "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/service_manage"
 
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/model/pb"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model/pb"
 )
 
 const (

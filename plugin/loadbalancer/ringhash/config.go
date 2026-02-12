@@ -22,7 +22,7 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/polarismesh/polaris-go/pkg/algorithm/hash"
+	"github.com/NHYCRaymond/polaris-go/pkg/algorithm/hash"
 )
 
 const (

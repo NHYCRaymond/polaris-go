@@ -26,7 +26,7 @@ import (
 	"github.com/modern-go/reflect2"
 	"gopkg.in/yaml.v2"
 
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
 )
 
 // 插件配置类型

@@ -18,7 +18,7 @@
 package api
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // InstanceHeartbeatRequest 心跳上报请求

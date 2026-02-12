@@ -24,17 +24,17 @@ import (
 	"time"
 
 	regexp "github.com/dlclark/regexp2"
-	"github.com/polarismesh/specification/source/go/api/v1/fault_tolerance"
-	apimodel "github.com/polarismesh/specification/source/go/api/v1/model"
-	"github.com/polarismesh/specification/source/go/api/v1/service_manage"
+	"github.com/NHYCRaymond/polaris-specification/source/go/api/v1/fault_tolerance"
+	apimodel "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/model"
+	"github.com/NHYCRaymond/polaris-specification/source/go/api/v1/service_manage"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/polarismesh/polaris-go/pkg/algorithm/match"
-	"github.com/polarismesh/polaris-go/pkg/clock"
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	pb "github.com/polarismesh/polaris-go/pkg/model/pb"
-	"github.com/polarismesh/polaris-go/pkg/plugin/healthcheck"
+	"github.com/NHYCRaymond/polaris-go/pkg/algorithm/match"
+	"github.com/NHYCRaymond/polaris-go/pkg/clock"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	pb "github.com/NHYCRaymond/polaris-go/pkg/model/pb"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/healthcheck"
 )
 
 const (

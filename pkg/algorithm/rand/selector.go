@@ -18,7 +18,7 @@
 package rand
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/algorithm/search"
+	"github.com/NHYCRaymond/polaris-go/pkg/algorithm/search"
 )
 
 // WeightedSlice 带权重的数组

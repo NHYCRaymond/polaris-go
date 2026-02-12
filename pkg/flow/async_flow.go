@@ -20,8 +20,8 @@ package flow
 import (
 	"time"
 
-	"github.com/polarismesh/polaris-go/pkg/flow/data"
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/flow/data"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // AsyncGetQuota 异步获取配额信息

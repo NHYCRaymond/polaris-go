@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/polarismesh/polaris-go/pkg/plugin"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin"
 )
 
 func init() {

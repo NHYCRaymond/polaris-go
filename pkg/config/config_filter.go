@@ -21,7 +21,7 @@ package config
 import (
 	"errors"
 
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
 )
 
 // ConfigFilterConfigImpl 配置过滤器配置

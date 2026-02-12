@@ -3,6 +3,7 @@ module github.com/NHYCRaymond/polaris-go
 go 1.15
 
 require (
+	github.com/NHYCRaymond/polaris-specification v1.0.0-new
 	github.com/agiledragon/gomonkey v2.0.2+incompatible
 	github.com/dlclark/regexp2 v1.7.0
 	github.com/golang/protobuf v1.5.2
@@ -19,7 +20,6 @@ require (
 	github.com/modern-go/reflect2 v1.0.2
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/pkg/errors v0.9.1
-	github.com/polarismesh/specification v1.7.0
 	github.com/prometheus/client_golang v1.12.2
 	github.com/smartystreets/goconvey v1.7.2
 	github.com/spaolacci/murmur3 v1.1.0

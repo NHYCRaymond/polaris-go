@@ -22,13 +22,13 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin"
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
-	"github.com/polarismesh/polaris-go/plugin/location/local"
-	"github.com/polarismesh/polaris-go/plugin/location/remotehttp"
-	"github.com/polarismesh/polaris-go/plugin/location/remoteservice"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/plugin/location/local"
+	"github.com/NHYCRaymond/polaris-go/plugin/location/remotehttp"
+	"github.com/NHYCRaymond/polaris-go/plugin/location/remoteservice"
 )
 
 // LocationPlugin location provider plugin

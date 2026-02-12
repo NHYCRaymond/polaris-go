@@ -20,9 +20,9 @@ package circuitbreaker
 import (
 	"time"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin"
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
 )
 
 // CircuitBreaker 【扩展点接口】资源熔断（实例熔断、方法熔断、服务熔断）

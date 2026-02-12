@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/polarismesh/polaris-go/pkg/algorithm/hash"
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin/loadbalancer"
-	"github.com/polarismesh/polaris-go/plugin/loadbalancer/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/algorithm/hash"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/loadbalancer"
+	"github.com/NHYCRaymond/polaris-go/plugin/loadbalancer/common"
 )
 
 // TableSelector maglev向量表选择器

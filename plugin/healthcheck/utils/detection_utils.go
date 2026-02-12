@@ -20,7 +20,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // GetAddressByInstance 根据model.Instance得到address(ip:port格式)

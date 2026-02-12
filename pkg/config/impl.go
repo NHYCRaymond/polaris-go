@@ -26,7 +26,7 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // ConfigurationImpl cl5全局配置.

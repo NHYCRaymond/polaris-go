@@ -24,17 +24,17 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/polarismesh/specification/source/go/api/v1/service_manage"
+	"github.com/NHYCRaymond/polaris-specification/source/go/api/v1/service_manage"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/model/local"
-	"github.com/polarismesh/polaris-go/pkg/model/pb"
-	"github.com/polarismesh/polaris-go/pkg/plugin"
-	"github.com/polarismesh/polaris-go/pkg/plugin/servicerouter"
-	"github.com/polarismesh/polaris-go/plugin/servicerouter/zeroprotect"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model/local"
+	"github.com/NHYCRaymond/polaris-go/pkg/model/pb"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/servicerouter"
+	"github.com/NHYCRaymond/polaris-go/plugin/servicerouter/zeroprotect"
 )
 
 func genMockInstance(svcName, namespace string, count int64) []model.Instance {

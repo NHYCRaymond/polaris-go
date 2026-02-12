@@ -21,16 +21,16 @@ import (
 	"context"
 	"time"
 
-	apiservice "github.com/polarismesh/specification/source/go/api/v1/service_manage"
+	apiservice "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/service_manage"
 
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/network"
-	"github.com/polarismesh/polaris-go/pkg/plugin"
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
-	"github.com/polarismesh/polaris-go/pkg/plugin/serverconnector"
-	connector "github.com/polarismesh/polaris-go/plugin/serverconnector/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/network"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/serverconnector"
+	connector "github.com/NHYCRaymond/polaris-go/plugin/serverconnector/common"
 )
 
 const (

@@ -18,8 +18,8 @@
 package reject
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin/ratelimiter"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/ratelimiter"
 )
 
 type QuotaBucketReject struct {

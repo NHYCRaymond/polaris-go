@@ -25,16 +25,16 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	apimodel "github.com/polarismesh/specification/source/go/api/v1/model"
-	apiservice "github.com/polarismesh/specification/source/go/api/v1/service_manage"
+	apimodel "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/model"
+	apiservice "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/service_manage"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/metric"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/model/local"
-	"github.com/polarismesh/polaris-go/pkg/plugin/loadbalancer"
-	"github.com/polarismesh/polaris-go/pkg/plugin/servicerouter"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/metric"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model/local"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/loadbalancer"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/servicerouter"
 )
 
 // SvcPluginValues 服务级插件值.

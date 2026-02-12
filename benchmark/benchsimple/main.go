@@ -33,9 +33,9 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/polarismesh/polaris-go/api"
-	"github.com/polarismesh/polaris-go/benchmark/flags"
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/api"
+	"github.com/NHYCRaymond/polaris-go/benchmark/flags"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 const (

@@ -19,8 +19,8 @@
 package polaris
 
 import (
-	"github.com/polarismesh/polaris-go/api"
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/api"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // GetOneInstanceRequest is the request struct for GetOneInstance.

@@ -20,7 +20,7 @@ package loadbalance
 import (
 	"sync"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // LoadBalanceGauge 负载均衡统计数据

@@ -24,19 +24,19 @@ import (
 	"time"
 
 	"github.com/modern-go/reflect2"
-	apimodel "github.com/polarismesh/specification/source/go/api/v1/model"
-	apitraffic "github.com/polarismesh/specification/source/go/api/v1/traffic_manage"
-	slimiter "github.com/polarismesh/specification/source/go/api/v1/traffic_manage/ratelimiter"
+	apimodel "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/model"
+	apitraffic "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/traffic_manage"
+	slimiter "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/traffic_manage/ratelimiter"
 
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/flow/data"
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/model/pb"
-	limitpb "github.com/polarismesh/polaris-go/pkg/model/pb/metric/v2"
-	"github.com/polarismesh/polaris-go/pkg/plugin"
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
-	"github.com/polarismesh/polaris-go/pkg/plugin/ratelimiter"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/flow/data"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model/pb"
+	limitpb "github.com/NHYCRaymond/polaris-go/pkg/model/pb/metric/v2"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/ratelimiter"
 )
 
 // RateLimitWindowSet 限流分配窗口的缓存

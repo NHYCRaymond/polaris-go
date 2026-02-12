@@ -18,8 +18,8 @@
 package api
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/model"
-	_ "github.com/polarismesh/polaris-go/pkg/plugin/register"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	_ "github.com/NHYCRaymond/polaris-go/pkg/plugin/register"
 )
 
 type circuitBreakerAPI struct {

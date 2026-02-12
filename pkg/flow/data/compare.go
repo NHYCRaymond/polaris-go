@@ -18,7 +18,7 @@
 package data
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // AllEqualsComparable 全相同的比较器

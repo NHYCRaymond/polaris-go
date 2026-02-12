@@ -31,15 +31,15 @@ import (
 	"github.com/modern-go/reflect2"
 	"gopkg.in/yaml.v2"
 
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/flow"
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/network"
-	"github.com/polarismesh/polaris-go/pkg/plugin"
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
-	_ "github.com/polarismesh/polaris-go/pkg/plugin/register"
-	"github.com/polarismesh/polaris-go/pkg/version"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/flow"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/network"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
+	_ "github.com/NHYCRaymond/polaris-go/pkg/plugin/register"
+	"github.com/NHYCRaymond/polaris-go/pkg/version"
 )
 
 const (

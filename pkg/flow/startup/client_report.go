@@ -21,17 +21,17 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	apiservice "github.com/polarismesh/specification/source/go/api/v1/service_manage"
+	apiservice "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/service_manage"
 
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/flow/data"
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin"
-	"github.com/polarismesh/polaris-go/pkg/plugin/localregistry"
-	statreporter "github.com/polarismesh/polaris-go/pkg/plugin/metrics"
-	"github.com/polarismesh/polaris-go/pkg/plugin/serverconnector"
-	"github.com/polarismesh/polaris-go/pkg/version"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/flow/data"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/localregistry"
+	statreporter "github.com/NHYCRaymond/polaris-go/pkg/plugin/metrics"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/serverconnector"
+	"github.com/NHYCRaymond/polaris-go/pkg/version"
 )
 
 // NewReportClientCallBack  创建上报回调

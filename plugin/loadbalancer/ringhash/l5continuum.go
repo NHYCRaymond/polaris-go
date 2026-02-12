@@ -25,10 +25,10 @@ import (
 
 	murmur32 "github.com/spaolacci/murmur3"
 
-	"github.com/polarismesh/polaris-go/pkg/algorithm/search"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin/loadbalancer"
-	"github.com/polarismesh/polaris-go/plugin/loadbalancer/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/algorithm/search"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/loadbalancer"
+	"github.com/NHYCRaymond/polaris-go/plugin/loadbalancer/common"
 )
 
 // L5ContinuumSelector 一致性hash环

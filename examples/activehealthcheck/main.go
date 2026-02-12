@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/polarismesh/polaris-go"
+	"github.com/NHYCRaymond/polaris-go"
 )
 
 var (

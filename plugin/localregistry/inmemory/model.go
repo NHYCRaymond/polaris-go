@@ -24,14 +24,14 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/modern-go/reflect2"
 
-	"github.com/polarismesh/polaris-go/pkg/clock"
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/model/local"
-	"github.com/polarismesh/polaris-go/pkg/model/pb"
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
-	"github.com/polarismesh/polaris-go/pkg/plugin/serverconnector"
-	lrplug "github.com/polarismesh/polaris-go/plugin/localregistry/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/clock"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model/local"
+	"github.com/NHYCRaymond/polaris-go/pkg/model/pb"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/serverconnector"
+	lrplug "github.com/NHYCRaymond/polaris-go/plugin/localregistry/common"
 )
 
 type persistOpType int

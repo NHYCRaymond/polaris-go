@@ -23,7 +23,7 @@ import (
 
 	"github.com/modern-go/reflect2"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // Type 插件类型，每个扩展点有自己独立的插件类型

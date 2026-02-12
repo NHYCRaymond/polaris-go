@@ -24,7 +24,7 @@ import (
 	"github.com/agiledragon/gomonkey"
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/polarismesh/polaris-go/pkg/model/pb"
+	"github.com/NHYCRaymond/polaris-go/pkg/model/pb"
 )
 
 // Test_GetAddressByInstance 根据Instance获取IP：port

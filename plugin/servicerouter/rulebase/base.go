@@ -23,15 +23,15 @@ import (
 
 	regexp "github.com/dlclark/regexp2"
 	"github.com/modern-go/reflect2"
-	apimodel "github.com/polarismesh/specification/source/go/api/v1/model"
-	apitraffic "github.com/polarismesh/specification/source/go/api/v1/traffic_manage"
+	apimodel "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/model"
+	apitraffic "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/traffic_manage"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/polarismesh/polaris-go/pkg/algorithm/match"
-	"github.com/polarismesh/polaris-go/pkg/algorithm/rand"
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin/servicerouter"
+	"github.com/NHYCRaymond/polaris-go/pkg/algorithm/match"
+	"github.com/NHYCRaymond/polaris-go/pkg/algorithm/rand"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/servicerouter"
 )
 
 // 服务路由匹配结果

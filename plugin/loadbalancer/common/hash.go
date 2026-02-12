@@ -18,8 +18,8 @@
 package common
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/algorithm/hash"
-	"github.com/polarismesh/polaris-go/pkg/plugin/loadbalancer"
+	"github.com/NHYCRaymond/polaris-go/pkg/algorithm/hash"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/loadbalancer"
 )
 
 // CalcHashValue 计算hash值

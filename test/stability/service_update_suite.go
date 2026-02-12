@@ -28,17 +28,17 @@ import (
 
 	"github.com/golang/protobuf/ptypes/wrappers"
 	"github.com/google/uuid"
-	apimodel "github.com/polarismesh/specification/source/go/api/v1/model"
-	"github.com/polarismesh/specification/source/go/api/v1/service_manage"
+	apimodel "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/model"
+	"github.com/NHYCRaymond/polaris-specification/source/go/api/v1/service_manage"
 	"google.golang.org/grpc"
 	"gopkg.in/check.v1"
 
-	"github.com/polarismesh/polaris-go/api"
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	commontest "github.com/polarismesh/polaris-go/test/common"
-	"github.com/polarismesh/polaris-go/test/mock"
-	"github.com/polarismesh/polaris-go/test/util"
+	"github.com/NHYCRaymond/polaris-go/api"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	commontest "github.com/NHYCRaymond/polaris-go/test/common"
+	"github.com/NHYCRaymond/polaris-go/test/mock"
+	"github.com/NHYCRaymond/polaris-go/test/util"
 )
 
 const (

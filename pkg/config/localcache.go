@@ -24,8 +24,8 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
 )
 
 // LocalCacheConfigImpl 本地缓存配置.

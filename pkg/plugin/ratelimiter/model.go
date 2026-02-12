@@ -20,7 +20,7 @@ package ratelimiter
 import (
 	"time"
 
-	apitraffic "github.com/polarismesh/specification/source/go/api/v1/traffic_manage"
+	apitraffic "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/traffic_manage"
 )
 
 // InitCriteria 配额查询相关的信息

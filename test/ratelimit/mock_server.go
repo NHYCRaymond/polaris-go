@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/polarismesh/specification/source/go/api/v1/traffic_manage/ratelimiter"
+	"github.com/NHYCRaymond/polaris-specification/source/go/api/v1/traffic_manage/ratelimiter"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 const (

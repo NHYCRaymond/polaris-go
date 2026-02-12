@@ -20,12 +20,12 @@ package ringhash
 import (
 	"fmt"
 
-	mconfig "github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin"
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
-	"github.com/polarismesh/polaris-go/pkg/plugin/loadbalancer"
-	lbcommon "github.com/polarismesh/polaris-go/plugin/loadbalancer/common"
+	mconfig "github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/loadbalancer"
+	lbcommon "github.com/NHYCRaymond/polaris-go/plugin/loadbalancer/common"
 )
 
 // L5CSTLoadBalancer l5一致性算法的hash负载均衡器

@@ -18,10 +18,10 @@
 package configuration
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/plugin/configconnector"
-	"github.com/polarismesh/polaris-go/pkg/plugin/configfilter"
-	"github.com/polarismesh/polaris-go/pkg/plugin/events"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/configconnector"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/configfilter"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/events"
 )
 
 type ConfigFlow struct {

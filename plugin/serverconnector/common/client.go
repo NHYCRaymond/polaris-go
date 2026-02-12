@@ -21,9 +21,9 @@ import (
 	"context"
 	"time"
 
-	apiservice "github.com/polarismesh/specification/source/go/api/v1/service_manage"
+	apiservice "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/service_manage"
 
-	"github.com/polarismesh/polaris-go/pkg/network"
+	"github.com/NHYCRaymond/polaris-go/pkg/network"
 )
 
 // DiscoverClient 服务发现客户端接口

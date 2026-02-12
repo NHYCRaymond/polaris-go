@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/polarismesh/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
 )
 
 // ResMetricArray 资源统计序列

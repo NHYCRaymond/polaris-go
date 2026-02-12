@@ -32,12 +32,12 @@ import (
 	"github.com/prometheus/client_golang/prometheus/push"
 	"go.uber.org/zap"
 
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin"
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
-	statreporter "github.com/polarismesh/polaris-go/pkg/plugin/metrics"
-	statcommon "github.com/polarismesh/polaris-go/plugin/metrics/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
+	statreporter "github.com/NHYCRaymond/polaris-go/pkg/plugin/metrics"
+	statcommon "github.com/NHYCRaymond/polaris-go/plugin/metrics/common"
 )
 
 const (

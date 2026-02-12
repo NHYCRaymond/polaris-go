@@ -20,7 +20,7 @@ package nearbybase
 import (
 	"fmt"
 
-	"github.com/polarismesh/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
 )
 
 // 就近路由的配置

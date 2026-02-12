@@ -18,11 +18,11 @@
 package composite
 
 import (
-	"github.com/polarismesh/specification/source/go/api/v1/fault_tolerance"
-	apimodel "github.com/polarismesh/specification/source/go/api/v1/model"
+	"github.com/NHYCRaymond/polaris-specification/source/go/api/v1/fault_tolerance"
+	apimodel "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/model"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 const (

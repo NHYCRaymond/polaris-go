@@ -22,9 +22,9 @@ import (
 	"strings"
 
 	regexp "github.com/dlclark/regexp2"
-	apimodel "github.com/polarismesh/specification/source/go/api/v1/model"
+	apimodel "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/model"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 const (

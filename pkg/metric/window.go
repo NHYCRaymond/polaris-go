@@ -24,8 +24,8 @@ import (
 
 	"github.com/modern-go/reflect2"
 
-	"github.com/polarismesh/polaris-go/pkg/clock"
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/clock"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // AddBucketFunc 回调函数，用于将统计数据入桶

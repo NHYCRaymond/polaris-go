@@ -104,7 +104,7 @@ func formatAndWrite(file string, data string) error {
 }
 
 const (
-	pluginPath   = "github.com/polarismesh/polaris-go/plugin/"
+	pluginPath   = "github.com/NHYCRaymond/polaris-go/plugin/"
 	pluginFile   = "plugin.cfg"
 	fileTemplate = "pkg/plugin/register/plugins.temp"
 	pluginFSPath = "plugin/" // Where the plugins are located on the file system

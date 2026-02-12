@@ -18,9 +18,9 @@
 package data
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/model/pb"
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model/pb"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
 )
 
 // CheckAddInstances check if the instances are valid

@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
 )
 
 // RateLimitConfigImpl 限流配置对象.

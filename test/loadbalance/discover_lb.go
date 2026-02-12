@@ -26,15 +26,15 @@ import (
 
 	"github.com/golang/protobuf/ptypes/wrappers"
 	"github.com/google/uuid"
-	"github.com/polarismesh/specification/source/go/api/v1/service_manage"
+	"github.com/NHYCRaymond/polaris-specification/source/go/api/v1/service_manage"
 	"google.golang.org/grpc"
 	"gopkg.in/check.v1"
 
-	"github.com/polarismesh/polaris-go/api"
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/network"
-	"github.com/polarismesh/polaris-go/test/mock"
-	"github.com/polarismesh/polaris-go/test/util"
+	"github.com/NHYCRaymond/polaris-go/api"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/network"
+	"github.com/NHYCRaymond/polaris-go/test/mock"
+	"github.com/NHYCRaymond/polaris-go/test/util"
 )
 
 // InnerServiceLBTestingSuite 消费者API测试套

@@ -17,7 +17,7 @@
 
 package api
 
-import "github.com/polarismesh/polaris-go/pkg/model"
+import "github.com/NHYCRaymond/polaris-go/pkg/model"
 
 type GetConfigFileRequest struct {
 	*model.GetConfigFileRequest

@@ -26,7 +26,7 @@ import (
 	"encoding/base64"
 	"errors"
 
-	"github.com/polarismesh/polaris-go/plugin/configfilter/crypto"
+	"github.com/NHYCRaymond/polaris-go/plugin/configfilter/crypto"
 )
 
 const (

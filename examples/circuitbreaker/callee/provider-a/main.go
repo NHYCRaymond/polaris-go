@@ -28,9 +28,9 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"github.com/polarismesh/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
 
-	"github.com/polarismesh/polaris-go"
+	"github.com/NHYCRaymond/polaris-go"
 )
 
 var (

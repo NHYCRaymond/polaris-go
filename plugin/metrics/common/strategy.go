@@ -17,7 +17,7 @@
 package common
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 var (

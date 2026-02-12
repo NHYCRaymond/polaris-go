@@ -18,14 +18,14 @@
 package hash
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/algorithm/hash"
-	"github.com/polarismesh/polaris-go/pkg/algorithm/search"
-	mconfig "github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin"
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
-	"github.com/polarismesh/polaris-go/pkg/plugin/loadbalancer"
-	lbcommon "github.com/polarismesh/polaris-go/plugin/loadbalancer/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/algorithm/hash"
+	"github.com/NHYCRaymond/polaris-go/pkg/algorithm/search"
+	mconfig "github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/loadbalancer"
+	lbcommon "github.com/NHYCRaymond/polaris-go/plugin/loadbalancer/common"
 )
 
 // LoadBalancer hash负载均衡插件

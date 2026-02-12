@@ -22,9 +22,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/polarismesh/polaris-go/pkg/clock"
-	"github.com/polarismesh/polaris-go/pkg/metric"
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/clock"
+	"github.com/NHYCRaymond/polaris-go/pkg/metric"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 const (

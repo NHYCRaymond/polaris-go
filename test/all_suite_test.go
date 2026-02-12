@@ -32,13 +32,13 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/polarismesh/polaris-go/api"
-	"github.com/polarismesh/polaris-go/test/discover"
-	"github.com/polarismesh/polaris-go/test/loadbalance"
-	"github.com/polarismesh/polaris-go/test/ratelimit"
-	"github.com/polarismesh/polaris-go/test/serviceroute"
-	"github.com/polarismesh/polaris-go/test/stability"
-	"github.com/polarismesh/polaris-go/test/subscribe"
+	"github.com/NHYCRaymond/polaris-go/api"
+	"github.com/NHYCRaymond/polaris-go/test/discover"
+	"github.com/NHYCRaymond/polaris-go/test/loadbalance"
+	"github.com/NHYCRaymond/polaris-go/test/ratelimit"
+	"github.com/NHYCRaymond/polaris-go/test/serviceroute"
+	"github.com/NHYCRaymond/polaris-go/test/stability"
+	"github.com/NHYCRaymond/polaris-go/test/subscribe"
 )
 
 // Test 测试用例主入口

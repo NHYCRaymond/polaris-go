@@ -18,9 +18,9 @@
 package api
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	_ "github.com/polarismesh/polaris-go/pkg/plugin/register"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	_ "github.com/NHYCRaymond/polaris-go/pkg/plugin/register"
 )
 
 // providerAPI 被调者对外接口实现

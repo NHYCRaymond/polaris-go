@@ -18,7 +18,7 @@
 package grpc
 
 import (
-	"github.com/polarismesh/polaris-go/plugin/serverconnector/common"
+	"github.com/NHYCRaymond/polaris-go/plugin/serverconnector/common"
 )
 
 var (

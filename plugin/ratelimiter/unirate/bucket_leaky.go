@@ -23,11 +23,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	apitraffic "github.com/polarismesh/specification/source/go/api/v1/traffic_manage"
+	apitraffic "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/traffic_manage"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/model/pb"
-	"github.com/polarismesh/polaris-go/pkg/plugin/ratelimiter"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model/pb"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/ratelimiter"
 )
 
 // LeakyBucket 远程配额分配的算法桶

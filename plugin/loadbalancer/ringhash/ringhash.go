@@ -18,13 +18,13 @@
 package ringhash
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/algorithm/hash"
-	mconfig "github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin"
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
-	"github.com/polarismesh/polaris-go/pkg/plugin/loadbalancer"
-	lbcommon "github.com/polarismesh/polaris-go/plugin/loadbalancer/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/algorithm/hash"
+	mconfig "github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/loadbalancer"
+	lbcommon "github.com/NHYCRaymond/polaris-go/plugin/loadbalancer/common"
 )
 
 // KetamaLoadBalancer ketama算法的一致性hash负载均衡器

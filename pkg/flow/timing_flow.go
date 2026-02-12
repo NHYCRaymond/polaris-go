@@ -18,10 +18,10 @@
 package flow
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/flow/schedule"
-	"github.com/polarismesh/polaris-go/pkg/flow/startup"
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/flow/schedule"
+	"github.com/NHYCRaymond/polaris-go/pkg/flow/startup"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 const (

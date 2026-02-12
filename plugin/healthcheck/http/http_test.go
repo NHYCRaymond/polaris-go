@@ -24,13 +24,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polarismesh/specification/source/go/api/v1/fault_tolerance"
-	"github.com/polarismesh/specification/source/go/api/v1/service_manage"
+	"github.com/NHYCRaymond/polaris-specification/source/go/api/v1/fault_tolerance"
+	"github.com/NHYCRaymond/polaris-specification/source/go/api/v1/service_manage"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/model/pb"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model/pb"
 )
 
 func TestDetector_DetectInstance(t *testing.T) {

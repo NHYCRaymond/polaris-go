@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/polarismesh/polaris-go/pkg/clock"
+	"github.com/NHYCRaymond/polaris-go/pkg/clock"
 )
 
 const (

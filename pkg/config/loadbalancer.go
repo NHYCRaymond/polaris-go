@@ -18,7 +18,7 @@
 package config
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
 )
 
 // LoadBalancerConfigImpl 负载均衡配置.

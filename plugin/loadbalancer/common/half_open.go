@@ -18,8 +18,8 @@
 package common
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin/loadbalancer"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/loadbalancer"
 )
 
 // SelectAvailableInstanceSet select available instance set

@@ -20,12 +20,12 @@ package pb
 import (
 	"github.com/golang/protobuf/proto"
 	"github.com/modern-go/reflect2"
-	apiservice "github.com/polarismesh/specification/source/go/api/v1/service_manage"
-	apitraffic "github.com/polarismesh/specification/source/go/api/v1/traffic_manage"
+	apiservice "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/service_manage"
+	apitraffic "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/traffic_manage"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // NearbyRoutingAssistant 就近路由规则解析助手

@@ -29,15 +29,15 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/modern-go/reflect2"
-	"github.com/polarismesh/specification/source/go/api/v1/traffic_manage/ratelimiter"
+	"github.com/NHYCRaymond/polaris-specification/source/go/api/v1/traffic_manage/ratelimiter"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	limitpb "github.com/polarismesh/polaris-go/pkg/model/pb/metric/v2"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	limitpb "github.com/NHYCRaymond/polaris-go/pkg/model/pb/metric/v2"
 )
 
 // ResponseCallBack 应答回调函数

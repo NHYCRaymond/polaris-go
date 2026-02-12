@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/polarismesh/polaris-go"
-	"github.com/polarismesh/polaris-go/api"
+	"github.com/NHYCRaymond/polaris-go"
+	"github.com/NHYCRaymond/polaris-go/api"
 )
 
 var (

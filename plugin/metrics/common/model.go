@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // MetricsType 指标类型，对应 Prometheus 提供的 Collector 类型.

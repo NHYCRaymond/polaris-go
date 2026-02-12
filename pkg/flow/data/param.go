@@ -22,8 +22,8 @@ import (
 
 	"github.com/modern-go/reflect2"
 
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // ControlParamProvider 控制参数提供者

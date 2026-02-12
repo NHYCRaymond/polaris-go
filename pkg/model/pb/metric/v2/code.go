@@ -17,7 +17,7 @@
 
 package v2
 
-import "github.com/polarismesh/specification/source/go/api/v1/traffic_manage/ratelimiter"
+import "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/traffic_manage/ratelimiter"
 
 type Code uint32
 

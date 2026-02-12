@@ -29,12 +29,12 @@ import (
 
 	"github.com/modern-go/reflect2"
 
-	"github.com/polarismesh/polaris-go/pkg/algorithm/hash"
-	"github.com/polarismesh/polaris-go/pkg/algorithm/search"
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin/loadbalancer"
-	"github.com/polarismesh/polaris-go/plugin/loadbalancer/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/algorithm/hash"
+	"github.com/NHYCRaymond/polaris-go/pkg/algorithm/search"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/loadbalancer"
+	"github.com/NHYCRaymond/polaris-go/plugin/loadbalancer/common"
 )
 
 // 一致性hash环的节点

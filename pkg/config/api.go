@@ -20,7 +20,7 @@ package config
 import (
 	"time"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // PluginConfig 插件配置对象.

@@ -24,14 +24,14 @@ import (
 	"sync"
 	"time"
 
-	apimodel "github.com/polarismesh/specification/source/go/api/v1/model"
+	apimodel "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/model"
 
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin/configconnector"
-	"github.com/polarismesh/polaris-go/pkg/plugin/configfilter"
-	"github.com/polarismesh/polaris-go/pkg/plugin/events"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/configconnector"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/configfilter"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/events"
 )
 
 // ConfigFileFlow 配置中心核心服务门面类

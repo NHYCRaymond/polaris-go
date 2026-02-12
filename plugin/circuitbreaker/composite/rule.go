@@ -24,11 +24,11 @@ import (
 	"time"
 
 	regexp "github.com/dlclark/regexp2"
-	"github.com/polarismesh/specification/source/go/api/v1/fault_tolerance"
+	"github.com/NHYCRaymond/polaris-specification/source/go/api/v1/fault_tolerance"
 
-	"github.com/polarismesh/polaris-go/pkg/algorithm/match"
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/algorithm/match"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 const (

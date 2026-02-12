@@ -19,7 +19,7 @@ package composite
 
 import (
 	"context"
-	"github.com/polarismesh/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
 	"hash/fnv"
 	"math/rand"
 	"runtime"

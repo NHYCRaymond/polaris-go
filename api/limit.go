@@ -20,7 +20,7 @@ package api
 import (
 	"time"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // QuotaRequest 配额查询请求

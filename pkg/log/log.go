@@ -25,7 +25,7 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/modern-go/reflect2"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 const (

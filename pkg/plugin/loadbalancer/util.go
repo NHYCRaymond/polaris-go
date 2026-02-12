@@ -18,7 +18,7 @@
 package loadbalancer
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // ChooseInstance 执行负载均衡

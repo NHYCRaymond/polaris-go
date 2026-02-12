@@ -23,10 +23,10 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/polarismesh/specification/source/go/api/v1/config_manage"
+	"github.com/NHYCRaymond/polaris-specification/source/go/api/v1/config_manage"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 const (

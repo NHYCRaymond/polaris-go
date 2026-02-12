@@ -20,7 +20,7 @@ package model
 import (
 	"fmt"
 
-	apimodel "github.com/polarismesh/specification/source/go/api/v1/model"
+	apimodel "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/model"
 )
 
 // ErrCode 错误码类型，Polaris SDK对外返回错误码都使用该类型

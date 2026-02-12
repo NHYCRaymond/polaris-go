@@ -25,8 +25,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/modern-go/reflect2"
 
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // ConnID 连接标识

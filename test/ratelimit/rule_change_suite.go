@@ -23,13 +23,13 @@ import (
 
 	"github.com/golang/protobuf/ptypes/wrappers"
 	"github.com/google/uuid"
-	apimodel "github.com/polarismesh/specification/source/go/api/v1/model"
+	apimodel "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/model"
 	"gopkg.in/check.v1"
 
-	"github.com/polarismesh/polaris-go/api"
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/flow"
-	"github.com/polarismesh/polaris-go/test/util"
+	"github.com/NHYCRaymond/polaris-go/api"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/flow"
+	"github.com/NHYCRaymond/polaris-go/test/util"
 )
 
 // 测试规则变更的测试套

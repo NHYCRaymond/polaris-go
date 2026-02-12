@@ -18,7 +18,7 @@
 package hash
 
 import (
-	"github.com/polarismesh/polaris-go/pkg/algorithm/hash"
+	"github.com/NHYCRaymond/polaris-go/pkg/algorithm/hash"
 )
 
 // Config 一致性hash配置对象

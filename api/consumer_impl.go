@@ -23,10 +23,10 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/modern-go/reflect2"
 
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/flow/data"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	_ "github.com/polarismesh/polaris-go/pkg/plugin/register"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/flow/data"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	_ "github.com/NHYCRaymond/polaris-go/pkg/plugin/register"
 )
 
 // consumerAPI 调用者对外函数实现

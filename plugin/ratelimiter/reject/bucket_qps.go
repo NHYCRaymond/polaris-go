@@ -25,13 +25,13 @@ import (
 	"time"
 
 	"github.com/modern-go/reflect2"
-	apitraffic "github.com/polarismesh/specification/source/go/api/v1/traffic_manage"
+	apitraffic "github.com/NHYCRaymond/polaris-specification/source/go/api/v1/traffic_manage"
 
-	"github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/model/pb"
-	"github.com/polarismesh/polaris-go/pkg/plugin/ratelimiter"
-	"github.com/polarismesh/polaris-go/plugin/ratelimiter/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/model/pb"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/ratelimiter"
+	"github.com/NHYCRaymond/polaris-go/plugin/ratelimiter/common"
 )
 
 // NewRemoteAwareQpsBucket 创建QPS远程限流窗口

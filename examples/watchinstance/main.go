@@ -21,8 +21,8 @@ import (
 	"flag"
 	"log"
 
-	"github.com/polarismesh/polaris-go"
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 var (
