@@ -197,6 +197,8 @@ type CircuitBreakerStatus interface {
 	GetFallbackInfo() *FallbackInfo
 	// SetFallbackInfo 获取熔断器的降级信息
 	SetFallbackInfo(*FallbackInfo)
+	// IsAvailable 检查实例是否可用
+	IsAvailable() bool
 }
 
 // CircuitBreakerStatusWrapper 上方熔断管理器的包装，用于存入 atomic.Value
