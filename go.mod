@@ -1,4 +1,4 @@
-module github.com/polarismesh/polaris-go
+module github.com/NHYCRaymond/polaris-go
 
 go 1.15
 
